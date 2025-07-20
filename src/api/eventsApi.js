@@ -240,11 +240,6 @@ const mockEvents = [
     },
   },
 ];
-
-/**
- * Simulates fetching events from an API
- * @returns {Promise<Array>} Array of events
- */
 export const getEvents = async () => {
   await new Promise(resolve => setTimeout(resolve, 500));
   return mockEvents;
