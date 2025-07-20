@@ -1,7 +1,5 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import { getEvents } from '../api/eventsApi';
-
-// Action types
 const EVENTS_ACTIONS = {
   SET_LOADING: 'SET_LOADING',
   SET_EVENTS: 'SET_EVENTS',

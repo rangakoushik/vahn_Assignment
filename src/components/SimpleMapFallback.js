@@ -23,8 +23,6 @@ const SimpleMapFallback = memo(({ onEventPress }) => {
       </View>
     );
   }
-
-  // Format date for display
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', {
